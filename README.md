@@ -38,19 +38,19 @@ We will perform a linear regression trained with the dataset to see if we are ab
 #### Step 6: Final visualisation of the datastory
 
 ## Proposed timeline
-Step 2: 25/11/22
-Step 3 and 4: 02/12/22
-Step 5: 09/12/22
-Step 6: 16/12/22
+- Step 2: 25/11/22
+- Step 3 and 4: 02/12/22
+- Step 5: 09/12/22
+- Step 6: 16/12/22
 
 ## Organization within the team
-Step 2: Teammate 1 and 2
-Step 3: Teammate 1 and 2
-Step 4: Teammate 3 and 4
-Step 5: Teammate 3 and 4
-Step 6: Teammate 1, 2, 3 and 4
+- Step 2: Teammate 1 and 2
+- Step 3: Teammate 1 and 2
+- Step 4: Teammate 3 and 4
+- Step 5: Teammate 3 and 4
+- Step 6: Teammate 1, 2, 3 and 4
 
-Teammate 1: Blanche
-Teammate 2: Martin
-Teammate 3: Edouard
-Teammate 4: Malena
+Teammate 1: Blanche<br>
+Teammate 2: Martin<br>
+Teammate 3: Edouard<br>
+Teammate 4: Malena<br>
