@@ -14,7 +14,7 @@ How can we produce a successful movie? The script? The plot? The genre? Luck? An
 
 ### Proposed additional datasets
 
-Use of *Cinemagoer, a python package for retrieving and managing the data of the **IMDb movie database*. This package is used to gain more complete information about the characters in each movie in order to maximise the accuracy rate when finding the main character, as the IMDb database is more complete. We will match the IMDb movies to the Wikipedia using the titles of the movies and release date.
+Use of **Cinemagoer**, a python package for retrieving and managing the data of the **IMDb movie database**. This package is used to gain more complete information about the characters in each movie in order to maximise the accuracy rate when finding the main character, as the IMDb database is more complete. We will match the IMDb movies to the Wikipedia using the titles of the movies and release date.
 
 ### Methods
 
