@@ -31,12 +31,23 @@ Use of **Cinemagoer**, a python package for retrieving and managing the data of 
 
 ## Methods
 
-To find the main character we are making the assumption that the name that appears the most in the synopsis represents the main character. We will find the character who’s first name or last name appears the most with natural language processing. 
+We evaluated the kind of movies contained in this dataset. 
+Our dataset contains films with decent box office 
+The type of films were well distributed and seem to represent the industry.
+From the analysis of the country of release we have mainly USA, some from India and UK, as expected, so the analysis will relate to the popularity in the USA. Which seems to match the language release, English, Hindu, Spanish and French.
+The movie releases represented are mainly from the beginning of the 20th century but overall it is well distributed. Dataset contains some errors, we know this, because we checked the maximum running time (eg. zero tolerance does not last 1079281 minutes) but the IQR look good so it can be corrected with some ease. We corrected the outliers by using the IMDb dataset from Cinemagoers.
+To find the main character we are making the assumption that the name that appears the most in the synopsis represents the main character. We will find the character who’s first name or last name appears the most with natural language processing. If no main character is found the movie will be discarded but if multiple main characters are found 
 To analyse correlation we will use t-test to correlate factors/attributes to success. We will also check the correlation among the attributes as well using the same method. We will also perform a logistic regression trained with the dataset to see if we are able to estimate the box office success of the movie and see which attributes affect it the most.
+
 
 ## Proposed timeline
 
 `A list of internal milestones up until project Milestone P3.`
+Assess the validity of hypothesis of name most mentioned in synopsis equals main character.
+Perform the t-test on the various attributes
+Perform the regression, while varying the attributes given to see which is the most accurate regression
+Evaluate if instead of taking just one main character we should evaluate the most popular ones and consider them the main characters (eg. If the most popular characters appears 11 times, 10 times and 9 times, considering all three)
+Determine on the box-office revenue we have 73340 information missing but we are trying to complete it. Either we replace everything with IMDb or replace only some but the revenue is for now and not then.
 
 ## Organization within the team 
 
