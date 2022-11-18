@@ -19,14 +19,14 @@ Use of **Cinemagoer**, a python package for retrieving and managing the data of 
 ### Methods
 
 #### Step 1: Preprocessing, data scraping
-Importing the different dataset and finding a way to retrieve data from IMDB API. Evaluating the kind of movies contained in this dataset. Our dataset contains a decent amount of films with box office values, the type of films were well distributed and seem to represent the industry. From the analysis of the country of release we have mainly USA, some from India and UK, as expected, so the analysis will relate to the popularity in the USA, which seems to match the most popular language release: English, Hindu, Spanish and French. The movie releases represented are mainly from the beginning of the 21th century but overall it is well distributed. Dataset contains some errors, we know this, because we checked the maximum running time (eg. zero tolerance does not last 1079281 minutes) but the IQR look good so it can be corrected with some ease. We can correct the outliers by using the IMDb dataset from Cinemagoers.
+We imported the different dataset and found a way to retrieve data from IMDb API. Evaluating the kind of movies contained in this dataset. Our dataset contains a decent amount of films with box office values, the type of films were well distributed and seem to represent the industry. From the analysis of the country of release we have mainly USA, some from India and UK, as expected, so the analysis will relate to the popularity in the USA, which seems to match the most popular language release: English, Hindu, Spanish and French. The movie releases represented are mainly from the beginning of the 21th century but overall it is well distributed. Dataset contains some errors, we know this, because we checked the maximum running time (eg. zero tolerance does not last 1079281 minutes) but the IQR look good so it can be corrected with some ease. We can correct the outliers by using the IMDb dataset from Cinemagoers.
 
 #### Step 2: Investigating the evolution of movie production over time and finding main character
 To find the main character we are making the assumption that the name that appears the most in the synopsis represents the main character. We will find the character who’s first name or last name appears the most with natural language processing. If no main character is found the movie will be discarded.
 Plot the evolution of the main chosen features over time, discretize movies in period of time if relevant.
     
 #### Step 3: Box office feature analysis
-We will first complete the dataset with imdb box office data using Cinemagoer, as describe at the end of the notebook. Using this data, we will analyze the impact of previously analysed features on the box office. For that we will notably use the χ2 test, to select the most relevant one.
+We will first complete the dataset with IMDb box office data using Cinemagoer, as describe at the end of the notebook. Using this data, we will analyze the impact of previously analysed features on the box office. For that we will notably use the χ2 test, to select the most relevant one.
     
 #### Step 4: Finding correlation
 To analyze correlation between the identified features and success rate of the movies we will use the t-test. We will also check the correlation among the attributes using the same method.
