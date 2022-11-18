@@ -28,7 +28,17 @@ Use of **Cinemagoer**, a python package for retrieving and managing the data of 
 
 ## Methods
 
-- 
+###	How has the production of movies changed over time? What kind of features (genre, runtime, main character gender, etc) were in produced movies?
+
+### How have those features impacted the box office over time?
+We will first complete the dataset with imdb box office data. Using this data, we will analyze the impact of previously identified features on the box office.
+
+### How well can we correlate production and success?
+
+### Using these insights, can we predict future production and/or the future box office of arbitrary productions?
+
+
+
 We evaluated the kind of movies contained in this dataset. 
 Our dataset contains films with decent box office 
 The type of films were well distributed and seem to represent the industry.
