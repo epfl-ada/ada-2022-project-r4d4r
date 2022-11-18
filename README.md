@@ -4,10 +4,10 @@
 
 `A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?`
 
-How can we make a successful movie? The script? The plot? The genre? Luck? In this project we want to see if we can find figure out what elements influence the success of a film. Studios would kill to know the secret formula that determines the success or failure of their future films, so let’s see if we can find it. 
-The main character: Who is the main character? Main characters come in many shapes and sizes but can they make the movie sink or swim? With the increase in recent controversial casting choices such as Liam Hemsworth to replace Henry Cavill for the Witcher, we want to see how much it matters. Furthermore, the goal of this project is to discover the hidden links between the elements, for instance, what does the main character need to look like when it’s a romantic film vs an adventure film?
+How can we make a successful movie? The script? The plot? The genre? Luck? In this project we want to see if we can figure out what elements influence the success of a film. 
+Let's take for example the main character: Who is the main character? Main characters come in many shapes and sizes but can they make the movie sink or swim? With the increase in recent controversial casting choices such as Liam Hemsworth to replace Henry Cavill for the Witcher, we want to see how much it matters. Furthermore, the goal of this project is to discover the hidden links between the elements, for instance, what does the main character need to look like when it’s a romantic film vs an adventure film?
 
-We want to look at the effect of the factors individually and when combined, (eg. 30 year old man as the main character for an action film compared to a 20 year old woman for a sci-fi film)
+We want to look at the effect of the attributes individually and when combined, (eg. 30 year old man as the main character for an action film compared to a 20 year old woman for a sci-fi film) and determine which attributes matter the most.
 
 
 ## Research Questions
