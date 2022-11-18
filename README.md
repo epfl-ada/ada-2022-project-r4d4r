@@ -13,14 +13,10 @@ We want to look at the effect of the attributes individually and when combined, 
 ## Research Questions
 
 `A list of research questions you would like to address during the project.`
-- Who is the main character?
-- The gender of the main character throughout time, how does it change?
-- What is the most popular type of main character? (Characteristics such height and age)
-- How does it vary among genres and which one is the most successful?
-- What characteristics of the main character can influence the success of a movie?
-- Does the time period of release of the movie affect its success?
-- Can we use regression to predict if a movie will be successful?
-- Does the gender of the main character influence the success?
+- How has the production of movies changed over time? What kind of features (genre, runtime, main character gender, etc) were in produced movies?
+- How have those features impacted the box office over time?
+- How well can we correlate production and success?
+- Using these insights, can we predict future production and/or the future box office of arbitrary productions?
 
 
 
@@ -32,6 +28,7 @@ Use of **Cinemagoer**, a python package for retrieving and managing the data of 
 
 ## Methods
 
+- 
 We evaluated the kind of movies contained in this dataset. 
 Our dataset contains films with decent box office 
 The type of films were well distributed and seem to represent the industry.
