@@ -7,6 +7,5 @@ fonctionnement du repo
 TODO:
 
 -   reformater le fichier fetch_imdb.py pour automatiser la création du fichier fetched_data.csv (?)
--   récupérer les trucs intéressants dans old.ipynb puis le supprimer (Martin)
 -   clean preprocessing.ipynb et ajouter comments (Martin)
 -   correct characters_names column in movies_cleaned.csv not to have nan values (Martin)
