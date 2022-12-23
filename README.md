@@ -3,6 +3,8 @@
 
 How can we produce a successful movie? The script? The plot? The genre? Luck? And how has that changed over time? In this project we want to see how the movie characteristics have evolved over time. For instance, we will look at the main character, who are they? What is their gender? Age? Do those characteristics influence the success of the film? We will also look at other factors such as genre and runtime. Furthermore, the goal of this project is to discover correlations between the characteristics and success. For instance, what does the main character need to look like when it’s a romantic film vs an adventure film in order to perform well in the box-office?
 
+Check out our data story here: https://malena-duck.github.io/success_movie/ 
+
 ### Research Questions
 
 - How has the production of movies changed over time? What kind of features (genre, runtime, main character gender, etc) were in produced movies?
@@ -35,7 +37,7 @@ To analyze correlation between the identified features and success rate of the m
 #### Step 5: Predicting future production and box office
 We will perform a linear regression trained with the dataset to see if we are able to estimate the box office value of the movie and see which attributes affect it the most. For this part, we will also use time series forecasting tools such as the Granger causality test, which determines whether one time series contains information to forecast another, or the ARIMA Model, another time series forcasting model.
     
-#### Step 6: Final visualisation of the datastory
+#### Step 6: Final visualisation of the datastory and cleaning the repository
 
 ## Proposed timeline
 - Step 2: 25/11/22
